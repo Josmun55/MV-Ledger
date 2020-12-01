@@ -1,6 +1,6 @@
 
 package com.jelurida.ardor.contracts;
-//initialing the contract
+//initialising the contract
 
 
 import nxt.addons.AbstractContract;
@@ -46,7 +46,7 @@ public class MVLedger<InvocationData, ReturnedData> extends AbstractContract<Inv
 
       //  List<String> allOwners = new ArrayList<>();
 
-       // List<String> renewalCandidates = new ArrayList<>();
+
 
         Params params = context.getParams(Params.class);
 
