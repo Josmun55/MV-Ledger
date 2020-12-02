@@ -1,0 +1,947 @@
+	.mediaViewInfo {
+		--web-view-name: homescreen;
+		--web-view-id: homescreen;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: homescreen;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#homescreen {
+		position: absolute;
+		width: 375px;
+		height: 1004px;
+		background-color: rgba(3,1,28,1);
+		overflow: hidden;
+		--web-view-name: homescreen;
+		--web-view-id: homescreen;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Rectangle_4_u {
+		opacity: 0.1;
+		fill: url(#Rectangle_4_u);
+	}
+	.Rectangle_4_u {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 118px;
+		height: 118px;
+		left: 16px;
+		top: 132px;
+		transition: all 0.8s ease-out;
+		--web-animation: fadein 0.8s ease-out;
+		--web-action-type: page;
+		--web-action-target: setup_vehicle_node.html;
+		cursor: pointer;
+	}
+	#Rectangle_4_w {
+		opacity: 0.1;
+		fill: url(#Rectangle_4_w);
+	}
+	.Rectangle_4_w {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 118px;
+		height: 118px;
+		left: 136px;
+		top: 132px;
+		transition: all 0.8s ease-out;
+		--web-animation: fadein 0.8s ease-out;
+		--web-action-type: page;
+		--web-action-target: car_listings_search.html;
+		cursor: pointer;
+	}
+	#Rectangle_4_y {
+		opacity: 0.1;
+		fill: url(#Rectangle_4_y);
+	}
+	.Rectangle_4_y {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 118px;
+		height: 118px;
+		left: 256px;
+		top: 132px;
+	}
+	#Rectangle_4_ {
+		opacity: 0.1;
+		fill: url(#Rectangle_4_);
+	}
+	.Rectangle_4_ {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 118px;
+		height: 118px;
+		left: 16px;
+		top: 257px;
+	}
+	#Rectangle_4_bb {
+		opacity: 0.1;
+		fill: url(#Rectangle_4_bb);
+	}
+	.Rectangle_4_bb {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 118px;
+		height: 118px;
+		left: 136px;
+		top: 257px;
+	}
+	#Rectangle_4_bd {
+		opacity: 0.1;
+		fill: url(#Rectangle_4_bd);
+	}
+	.Rectangle_4_bd {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 118px;
+		height: 118px;
+		left: 256px;
+		top: 257px;
+	}
+	#Setup_Vehicle___Node {
+		left: 35px;
+		top: 160px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		height: 44px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#Buy__Vehicle {
+		left: 156px;
+		top: 168px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		height: 29px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#Search_Vehicle {
+		left: 275px;
+		top: 168px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		height: 34px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#Track_Vehicle {
+		left: 35px;
+		top: 292px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		height: 30px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#Mv__Dealers {
+		left: 155px;
+		top: 292px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		height: 30px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#Others {
+		left: 275px;
+		top: 300px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		height: 14px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+	}
+	#Welcome_User {
+		left: 16px;
+		top: 81px;
+		position: absolute;
+		overflow: visible;
+		width: 123px;
+		height: 27px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_8 {
+		position: absolute;
+		width: 335px;
+		height: 83px;
+		left: 20px;
+		top: 559px;
+		overflow: visible;
+	}
+	#Path_5 {
+		opacity: 0.1;
+		fill: rgba(255,255,255,1);
+	}
+	.Path_5 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		overflow: visible;
+		position: absolute;
+		width: 353px;
+		height: 101px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID0 {
+		left: 93px;
+		top: 10px;
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(255,204,0,1);
+	}
+	#MV_Contracts {
+		left: 89px;
+		top: 54px;
+		position: absolute;
+		overflow: visible;
+		width: 94px;
+		height: 20px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_9 {
+		position: absolute;
+		width: 335px;
+		height: 83px;
+		left: 20px;
+		top: 652px;
+		overflow: visible;
+	}
+	#Path_6 {
+		opacity: 0.1;
+		fill: rgba(255,255,255,1);
+	}
+	.Path_6 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		overflow: visible;
+		position: absolute;
+		width: 353px;
+		height: 101px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID0_bi {
+		left: 93px;
+		top: 10px;
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(255,204,0,1);
+	}
+	#Vehicles {
+		left: 85px;
+		top: 53px;
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 20px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_10 {
+		position: absolute;
+		width: 335px;
+		height: 116px;
+		left: 20px;
+		top: 745px;
+		overflow: visible;
+	}
+	#Rectangle_7 {
+		opacity: 0.1;
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_7 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 353px;
+		height: 101px;
+		left: 0px;
+		top: 0px;
+	}
+	#ID0_ {
+		left: 93px;
+		top: 10px;
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(255,204,0,1);
+	}
+	#Transactions {
+		left: 85px;
+		top: 53px;
+		position: absolute;
+		overflow: visible;
+		width: 94px;
+		height: 20px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_219 {
+		position: absolute;
+		width: 1319px;
+		height: 151px;
+		left: 20px;
+		top: 394px;
+		overflow: visible;
+	}
+	#camry {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 255px;
+		height: 151px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		transition: all 0.8s ease-out;
+		--web-animation: fadein 0.8s ease-out;
+		--web-action-type: page;
+		--web-action-target: setup_vehicle_node_complete.html;
+		cursor: pointer;
+	}
+	#white-sport-car_176382-1594 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 255px;
+		height: 151px;
+		left: 266px;
+		top: 0px;
+		overflow: visible;
+	}
+	#suv-4x4-car-2008-mockup_338035 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 255px;
+		height: 151px;
+		left: 798px;
+		top: 0px;
+		overflow: visible;
+	}
+	#camry_bs {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 255px;
+		height: 151px;
+		left: 1064px;
+		top: 0px;
+		overflow: visible;
+	}
+	#muscle-car-mockup_338035-2867 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 255px;
+		height: 151px;
+		left: 532px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_15 {
+		position: absolute;
+		width: 335px;
+		height: 83px;
+		left: 20px;
+		top: 838px;
+		overflow: visible;
+	}
+	#Rectangle_7_bv {
+		opacity: 0.1;
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_7_bv {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 353px;
+		height: 101px;
+		left: 0px;
+		top: 0px;
+	}
+	#ID0_bw {
+		left: 93px;
+		top: 10px;
+		position: absolute;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(255,204,0,1);
+	}
+	#Transactions_bx {
+		left: 85px;
+		top: 53px;
+		position: absolute;
+		overflow: visible;
+		width: 94px;
+		height: 20px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Featured_Vehicles {
+		left: 16px;
+		top: 370px;
+		position: absolute;
+		overflow: hidden;
+		width: 109px;
+		height: 14px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+	}
+	#Ellipse_1 {
+		opacity: 0.24;
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 45px;
+		height: 45px;
+		left: 37px;
+		top: 578px;
+	}
+	#Ellipse_2 {
+		opacity: 0.24;
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_2 {
+		position: absolute;
+		overflow: visible;
+		width: 45px;
+		height: 45px;
+		left: 37px;
+		top: 671px;
+	}
+	#Ellipse_3 {
+		opacity: 0.24;
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_3 {
+		position: absolute;
+		overflow: visible;
+		width: 45px;
+		height: 45px;
+		left: 37px;
+		top: 764px;
+	}
+	#Ellipse_4 {
+		opacity: 0.24;
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_4 {
+		position: absolute;
+		overflow: visible;
+		width: 45px;
+		height: 45px;
+		left: 37px;
+		top: 857px;
+	}
+	#Group_187 {
+		position: absolute;
+		width: 375px;
+		height: 86px;
+		left: 0px;
+		top: 729px;
+		overflow: visible;
+	}
+	#Group_191 {
+		position: absolute;
+		width: 375px;
+		height: 86px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_119 {
+		filter: blur(30px);
+		fill: rgba(255,255,255,1);
+	}
+	.Path_119 {
+		overflow: visible;
+		position: absolute;
+		width: 375px;
+		height: 61px;
+		left: 0px;
+		top: 25px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Dashboard {
+		left: 309px;
+		top: 66px;
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(198,198,198,1);
+	}
+	#Reports {
+		left: 221px;
+		top: 66px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(198,198,198,1);
+	}
+	#Combined_Shape {
+		fill: rgba(216,216,216,1);
+	}
+	.Combined_Shape {
+		overflow: visible;
+		position: absolute;
+		width: 24px;
+		height: 23.996px;
+		left: 237px;
+		top: 41px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Accounts {
+		left: 25px;
+		top: 66px;
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(255,204,0,1);
+	}
+	#Path_120 {
+		fill: rgba(255,204,0,1);
+	}
+	.Path_120 {
+		overflow: visible;
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		left: 158px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#qr-code {
+		position: absolute;
+		width: 26px;
+		height: 26px;
+		left: 175px;
+		top: 17px;
+		overflow: visible;
+	}
+	#Path_11 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_11 {
+		overflow: visible;
+		position: absolute;
+		width: 6.094px;
+		height: 6.094px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_12 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_12 {
+		overflow: visible;
+		position: absolute;
+		width: 6.094px;
+		height: 6.094px;
+		left: 19.906px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_13 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_13 {
+		overflow: visible;
+		position: absolute;
+		width: 6.094px;
+		height: 6.094px;
+		left: 19.906px;
+		top: 19.906px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_14 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_14 {
+		overflow: visible;
+		position: absolute;
+		width: 6.094px;
+		height: 6.094px;
+		left: 0px;
+		top: 19.906px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_15 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_15 {
+		overflow: visible;
+		position: absolute;
+		width: 9.141px;
+		height: 7.617px;
+		left: 3.098px;
+		top: 3.047px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_16 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_16 {
+		overflow: visible;
+		position: absolute;
+		width: 9.141px;
+		height: 9.141px;
+		left: 13.762px;
+		top: 13.711px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_17 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_17 {
+		overflow: visible;
+		position: absolute;
+		width: 10.664px;
+		height: 10.664px;
+		left: 3.098px;
+		top: 12.188px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_18 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_18 {
+		overflow: visible;
+		position: absolute;
+		width: 1.523px;
+		height: 1.523px;
+		left: 6.145px;
+		top: 6.094px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_19 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_19 {
+		overflow: visible;
+		position: absolute;
+		width: 1.523px;
+		height: 1.523px;
+		left: 18.332px;
+		top: 6.094px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_20 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_20 {
+		overflow: visible;
+		position: absolute;
+		width: 7.617px;
+		height: 9.141px;
+		left: 15.285px;
+		top: 3.047px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_21 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_21 {
+		overflow: visible;
+		position: absolute;
+		width: 3.047px;
+		height: 1.523px;
+		left: 19.855px;
+		top: 12.188px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_22 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_22 {
+		overflow: visible;
+		position: absolute;
+		width: 1.523px;
+		height: 1.523px;
+		left: 18.332px;
+		top: 18.281px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_23 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_23 {
+		overflow: visible;
+		position: absolute;
+		width: 1.523px;
+		height: 1.523px;
+		left: 12.238px;
+		top: 16.758px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_24 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_24 {
+		overflow: visible;
+		position: absolute;
+		width: 1.523px;
+		height: 3.047px;
+		left: 9.191px;
+		top: 15.234px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_25 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_25 {
+		overflow: visible;
+		position: absolute;
+		width: 1.523px;
+		height: 1.523px;
+		left: 10.715px;
+		top: 13.711px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_26 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_26 {
+		overflow: visible;
+		position: absolute;
+		width: 1.523px;
+		height: 3.047px;
+		left: 3.098px;
+		top: 16.758px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_27 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_27 {
+		overflow: visible;
+		position: absolute;
+		width: 1.523px;
+		height: 1.523px;
+		left: 3.098px;
+		top: 21.328px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_28 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_28 {
+		overflow: visible;
+		position: absolute;
+		width: 1.523px;
+		height: 1.523px;
+		left: 12.238px;
+		top: 3.047px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_29 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_29 {
+		overflow: visible;
+		position: absolute;
+		width: 1.523px;
+		height: 3.047px;
+		left: 12.238px;
+		top: 6.094px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_30 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_30 {
+		overflow: visible;
+		position: absolute;
+		width: 6.094px;
+		height: 3.047px;
+		left: 12.238px;
+		top: 10.664px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Budget {
+		left: 97px;
+		top: 66px;
+		position: absolute;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(198,198,198,1);
+	}
+	#Budget_cx {
+		left: 176px;
+		top: 66px;
+		position: absolute;
+		overflow: visible;
+		width: 25px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		color: rgba(198,198,198,1);
+	}
+	#Combined_Shape_cy {
+		fill: rgba(216,216,216,1);
+	}
+	.Combined_Shape_cy {
+		overflow: visible;
+		position: absolute;
+		width: 24px;
+		height: 18.857px;
+		left: 104px;
+		top: 45px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ic_account_balance_24px {
+		fill: rgba(255,204,0,1);
+	}
+	.ic_account_balance_24px {
+		overflow: visible;
+		position: absolute;
+		width: 21.714px;
+		height: 24px;
+		left: 29px;
+		top: 37px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ic_settings_24px {
+		fill: rgba(216,216,216,1);
+	}
+	.ic_settings_24px {
+		overflow: visible;
+		position: absolute;
+		width: 19.454px;
+		height: 20px;
+		left: 320px;
+		top: 44px;
+		transform: matrix(1,0,0,1,0,0);
+	}
